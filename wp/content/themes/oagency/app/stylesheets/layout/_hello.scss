@@ -1,0 +1,17 @@
+.hello {
+  color: white;
+  background-image: url('/visuels/arbre.jpg');
+  height: 40vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+  &__title {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  &__p {
+    font-weight: bold;
+  }
+}
